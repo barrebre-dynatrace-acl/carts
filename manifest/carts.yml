@@ -8,6 +8,8 @@ spec:
   replicas: 1
   template:
     metadata:
+      annotations:
+        class: "acl-august"
       labels:
         app: carts
         version: v1
