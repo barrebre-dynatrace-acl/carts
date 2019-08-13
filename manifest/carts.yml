@@ -4,6 +4,8 @@ kind: Deployment
 metadata:
   name: carts
   namespace: dev
+  annotations:
+    class: "deploy-acl-august"
 spec:
   replicas: 1
   template:
